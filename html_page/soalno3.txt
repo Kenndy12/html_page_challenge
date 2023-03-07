@@ -1,0 +1,4 @@
+
+
+- Mengnormalisasikan tabel-tabel database untuk mengurangkan redundancy data
+- Menggunakan clause-clause seperti "Where" untuk menglimit data yang ditarik untuk meningkatkan efficiency

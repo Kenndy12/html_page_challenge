@@ -1,0 +1,101 @@
+.parentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.buttonContainer {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 20%;
+}
+
+.sortButtonContainer {
+    display: none;
+    overflow: hidden;
+    background-color:#f1f1f1;
+    height:75px;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.sortButton {
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4%;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+.moviesContainer {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    
+}
+
+.movieCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: 20px;
+    border-radius: 15px; 
+}
+
+.movieCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.movieCard > h2, h3 {
+    text-align: left;
+    padding-left : 15px;
+}
+
+.movieCard > h2 {
+    font-size: 18px;
+}
+
+.movieCard > h3 {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 5px;
+}
+.movieImageContainer {
+    width:100%;
+    position: relative;
+}
+
+.movieImageContainer > img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.movieRatingContainer {
+    position: absolute;
+    top:280px;
+    left:15px;
+    border-radius: 50%;
+    background-color: black;
+    color:white;
+    height:35px;
+    width:35px;
+    text-align: center;
+    line-height: 35px;
+}
